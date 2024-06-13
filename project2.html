@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MAT Token Interaction (DApp)</title>
+</head>
+<body>
+    <h1>My MAT Token Interaction (DApp)</h1>
+
+    <p>Token Name: <span id="tokenName"></span></p>
+    <p>Token Symbol: <span id="tokenSymbol"></span></p>
+    <p>Total Supply: <span id="totalSupply"></span></p>
+
+    <button id="getBalance">Get My MAT Balance</button>
+    <p id="balanceOutput"></p>
+
+    <input type="number" id="mintAmount" placeholder="Mint Amount">
+    <button id="mintButton">Mint Tokens (Simulate Minting)</button>
+
+    <input type="number" id="burnAmount" placeholder="Burn Amount">
+    <button id="burnButton">Burn Tokens (Simulate Burning)</button>
+
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+    <script src="file2.js"></script>
+</body>
+</html>
